@@ -94,7 +94,8 @@ height: 100%;
      .section9{
          width:1180px;
      }
- 
+ .section9{
+     width:1400px;
 }
 .menubar{
     display: flex;
