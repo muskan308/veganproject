@@ -123,13 +123,14 @@ font-size: 24px;
 font-weight: 600;
 text-align: center;
 width: 200px;
+    padding-left: 5%;
 }
 .section3 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    padding:5px;
+
 }
 .section3 p{
     font-family: 'Poppins', sans-serif;
@@ -154,6 +155,7 @@ left:50%;
 transform: translateX(-50%);
 transform: translate(-50% ,-130px)
  }
+
  #bar{
      padding-top: 120px;
  }
