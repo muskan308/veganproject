@@ -1,4 +1,12 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+.maing{
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+     height:700px; 
+     background-size:100% 100%;
+}
 .header{
     background-color: white;
     display: flex;
@@ -12,6 +20,89 @@
    top:0;
    z-index: 999;
    width: 1530px;
+}
+
+@media only screen and (max-width:1140px){
+    .menubar{
+      position: relative;
+      left: -100px;
+    }
+    .demodrop{
+        position: relative;
+            left: -1100px;
+    }
+    .maing{
+      width: 1490px;
+    }
+   .section2{
+       margin-left: 0px;
+   }
+    .section3{
+        width: 1497px;
+    }
+  .s1{
+      width: 350px;
+  }
+  .s2{
+      width: 350px;
+  }
+  .s3{
+      width: 350px;
+  }
+  .s4{
+      width: 350px;
+  }
+    
+  .bars{
+      position: relative;
+  }
+ 
+ .bars p{
+     padding: 10px 10px 10px 10px;
+ }
+ .section4{
+     width: 1499px;
+ }
+ 
+ .section5{
+     width:1499px;
+ }
+ .main>img{
+height: 100%;
+ }
+ .section6{
+     width: 1299px;
+     
+ }
+ .box{
+     padding: 50px 50px;
+ }
+ .box>p{
+     position: relative;
+     left:-40px;
+ }
+ .section7{
+     width: 1200px;
+ }
+ .section7 h3{
+    margin: 0px 300px 0px 0px;
+    padding: 0px 500px 0px 0px;
+
+ }
+ .section7 iframe{
+     left:-100px; }
+     .section9{
+         width:1180px;
+     }
+ 
+}
+.menubar{
+    display: flex;
+padding: 30px 60px;
+}
+.menubar div{
+    padding: 0px 20px;
+    cursor: pointer;
 }
 
 .menubar{
@@ -101,6 +192,7 @@ background-color: #91ac41;
 }
 .s2:hover #icon{
     font-size: 102px;
+  
 }
 .s3{
     grid-area: s3;
@@ -125,8 +217,8 @@ background-color: #91ac41;
 #icon{
     color: white;
     font-size: 96px;
-    padding: 100px 20px 0px 130px;
-  
+    padding: 100px 20px 0px 140px;
+
     transition:font-size 0.2s ;
 }
 h3{
@@ -185,7 +277,7 @@ padding: 0px 500px 0px 525px;
 .bars{
     display: flex;
     justify-content: space-around;
-    margin: 90px 180px 20px 180px;
+    margin: 90px 180px 20px 150px;
     height: 450px;
     position: relative;
     left:15px;
@@ -195,7 +287,9 @@ padding: 0px 500px 0px 525px;
   font-family: 'Poppins', sans-serif;
 font-size: 24px;
 font-weight: 600;
-padding: 0px;
+position: relative;
+    left: -140px;
+    margin: 20px 0px 20px 0px;
 width: 200px;
 }
 .bars p{
@@ -442,19 +536,14 @@ grid-area: aside;
     color: #8b8b99;
     font-size: 44px;
     font-weight: 400;
-    position: relative;
-    left:400px;
-    top:30px;
+  margin: 10px 400px 50px 450px;
 }
 
 .section7 iframe{
     width: 100%;
     height: 450px;
     max-width: 1140px;
-    text-align: center;
-    position: relative;
-    left:180px;
-    top:50px;
+    margin: 10px 40px 0px 200px;
 }
 
   .left h3{
@@ -595,4 +684,6 @@ grid-area: aside;
     top:20px;
     left:600px;
 }
-  
+  .span1:hover{
+font-size: +20px;
+  }
