@@ -77,6 +77,7 @@ display: none;
 }
 .menubar>section:hover .drop_menu{
     display: block;
+    cursor:pointer;
 }
 .drop_menu td:hover{
     text-decoration: solid;
