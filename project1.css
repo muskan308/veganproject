@@ -69,6 +69,7 @@ padding: 30px 40px;
 position: relative;;
     top:20px;
 display: none;
+    cursor:pointer;
 }
 .demo{
     position: absolute;
